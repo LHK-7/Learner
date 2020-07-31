@@ -1,10 +1,10 @@
 // keys.js - figure out what set of credentials to return
 if (process.env.NODE_ENV === 'prodcution'){
   //production version
-  googleClientID: process.env.GOOGLE_CLIENT_ID,
-  googleClientSecret: process.env.GOOGLE_CLIENT_SECRET,
-  mongoURI: process.env.MONGO_URI,
-  cookieKey: process.env.COOKIEKEY
+  googleClientI =  process.env.GOOGLE_CLIENT_ID;
+  googleClientSecret =  process.env.GOOGLE_CLIENT_SECRET;
+  mongoURI = process.env.MONGO_URI;
+  cookieKey = process.env.COOKIEKEY;
   // module.exports = require('./prod');
 }
 // else {
