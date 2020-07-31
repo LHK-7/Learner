@@ -15,7 +15,8 @@ passport.deserializeUser((id, done) => {
 				done(null, user);
 			});
 });
-
+console.log("what is the clientId: ", keys.googleClientID);
+console.log("what is the Process Env", process.env);
 passport.use(
 	new GoogleStrategy(
 	{
